@@ -10,7 +10,7 @@ from craft import CRAFT
 from loss.mseloss import Maploss
 from torch.autograd import Variable
 
-
+#readme 바꿔줭ㅑㅇ
 def adjust_learning_rate(optimizer, gamma, step, lr):
     """Sets the learning rate to the initial LR decayed by 10 at every
         specified step
