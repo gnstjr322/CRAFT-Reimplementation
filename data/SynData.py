@@ -11,6 +11,8 @@ from gaussianMap.gaussian import GaussianTransformer
 from data.boxEnlarge import enlargebox
 from data.pointClockOrder import mep
 
+#testest
+
 
 class craftDataset(object):
     def __init__(self, target_size=768, data_dir_list={"synthtext":"datapath"}, vis=False):
