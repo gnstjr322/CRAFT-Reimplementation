@@ -11,6 +11,10 @@ from loss.mseloss import Maploss
 from torch.autograd import Variable
 
 #readme 바꿔줭ㅑㅇ
+
+
+# I have a big problem
+
 def adjust_learning_rate(optimizer, gamma, step, lr):
     """Sets the learning rate to the initial LR decayed by 10 at every
         specified step
@@ -25,7 +29,10 @@ def adjust_learning_rate(optimizer, gamma, step, lr):
 
 
 
+
 if __name__ == "__main__":
+    ## 여기도 바꼈어
+
     synthData_dir = {"synthtext":"/data/CRAFT-Reimplementation/dataset/SynthText"}
     target_size = 768
     batch_size = 16
